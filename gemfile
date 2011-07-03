@@ -1,0 +1,29 @@
+source 'http://rubygems.org'
+
+
+group :develoment, :test do
+  gem 'rspec'
+  gem 'autotest-growl', :require => 'autotest/growl'
+  gem 'autotest-fsevent'
+  gem 'bson_ext'
+  gem 'spork'
+  gem 'cucumber'
+  gem 'selenium-webdriver'
+  gem 'watir-webdriver'
+  gem 'har'
+  gem 'mongo'
+  gem 'mongoid'
+
+  #crutches
+  gem 'gizmo'
+  gem 'factory_girl'
+  gem 'capybara'
+
+  #gem 'forgery'
+  #gem 'database_cleaner'
+
+  # dont know if i need watir-webdriver but it would be cool do check the performance
+  #gem 'watir-webdriver'
+  #gem 'watir-webdriver-performance'
+
+end
